@@ -18,8 +18,28 @@ ul{
     list-style: none;
 }
 
+h2{
+    font-size: 16px;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
 
-/* Topo - menu*/
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+
+
+/* -----Topo - menu-----*/
 
 #principal{
     width: 750px;
@@ -39,7 +59,7 @@ ul{
     text-indent: -3000px;
 }
 
-/* MENU */
+/* -----MENU----- */
 
 #topo ul{
     background:#b10333;
@@ -68,4 +88,69 @@ ul{
 
 .selecionado {
     background: #DE003E;
+}
+
+
+/* -----LAYOUT----- */
+
+.conteudo{
+    margin-top: 60px;
+}
+.conteudo-primario{
+    width: 270px;
+    float: right;
+    border: 1px solid red;
+}
+
+.conteudo-secundario{
+    width: 270px;
+    float: left;
+    border: 1px solid red;  
+    margin: 0 10px 0 0 ;
+}
+
+.caixa {
+    background: #fff url(medias/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+/* 
+-----LATERAL-----
+*/
+
+.lateral {
+    width: 180px;
+    float: left;
+    margin: 0 12px 0 0 ;
+}
+
+
+.conteudo-caixa{
+        background: #fff;
+        padding: 5px;
+        margin-top: 5px;
+}
+
+.lateral ul a{
+    font-size: 13px;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color:#000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.lateral ul a:hover {
+    background: #f9f9f9 url(medias/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px solid #870529;
 }
