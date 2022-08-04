@@ -1,0 +1,71 @@
+/* 
+*****GERAIS*****
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Trebuchet MS', Helvetica sans-serif;
+    background: #fff url(medias/fundo.png) repeat-x;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+/* Topo - menu*/
+
+#principal{
+    width: 750px;
+    margin: 0 auto;
+}
+
+#topo{
+    height: 150px;
+    padding-top: 25px;
+    background: url(medias/detalhe-topo.png) no-repeat right top;
+}
+
+#logo{
+    width: 152px;
+    height: 66px;
+    background: url(medias/logo.png) no-repeat center;
+    text-indent: -3000px;
+}
+
+/* MENU */
+
+#topo ul{
+    background:#b10333;
+    margin-top: 30px;
+    float: left;
+
+}
+
+#topo ul li{
+    float: left;
+}
+
+#topo ul a{
+        font-size: 0.9em;
+        display: block;
+        padding: 0.5em 1.5em;
+        line-height: 2.1em;
+        text-decoration: none;
+        color: #fff;
+        background: url(medias/divisor.png) no-repeat left center;
+}
+
+#topo ul a:hover {
+    color: #69001d;
+}
+
+.selecionado {
+    background: #DE003E;
+}
