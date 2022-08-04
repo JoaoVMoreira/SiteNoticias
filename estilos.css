@@ -108,7 +108,7 @@ h3{
 .conteudo-primario{
     width: 270px;
     float: right;
-    border: 1px solid red;
+
 }
 
 .conteudo-secundario{
@@ -196,4 +196,19 @@ input.submit {
 #lista-noticias li:hover {
     background: #eee;
     cursor: pointer;
+}
+
+/* 
+-----RODA-PE-----
+*/
+
+.conteiner-roda-pe{
+    background: #294c71;
+    padding: 20px;
+}
+
+.rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
 }
